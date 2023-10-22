@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  .center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+
+}.navigation-site_text-logo{
+color: #292F36;
+font-family: DM Serif Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 50px */
+}
+.navigation-site_logo{
+    margin-right: 10px;
+  
+}
+/* 1199width */
+.navigation-site{
+    margin-top: 65.5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+.navigation-site_link{
+   display: flex;
+   gap: 50px;
+   color: #292F36;
+   text-align: center;
+   font-family: Jost;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 125%; /* 25px */
+   padding-top: 20px;
+}
+
+/* __________________ Unique-home */
+
+.Unique-home-bagraund{
+    background-image: url(../imginterno/img/Photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:auto;
+    width: 1201px;
+    height: 758px;
+    margin-bottom: 96px;
+    border-radius: 50px;
+}
+.Unique-home_title{
+    padding-top: 208px;
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 81.25px */
+    width:434px;
+    padding-left: 20px;
+}
+.Unique-home_text{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    padding-left: 20px;
+    width: 433px;
+    margin-bottom: 21px;
+}
+.Unique-home_buttom{
+    padding:26px 49px 26px 28px;
+    border-radius: 18px;
+    background: #292F36;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    position: relative;
+    margin-left: 20px;
+}
+.Unique-home_buttom-indicator{
+    position: absolute;
+    padding-top: 2.9px;
+    margin-left: 10px;
+}
+
+/* _____________________project-home */
+
+.project-home-carts{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 104px;
+    margin-bottom: 96px;
+}
+.project-home_title{
+    color: #292F36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.project-home_text{
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    /* width: 737px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 93px;
+}
+.Modern-Kitch{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    letter-spacing: 0.5px;
+}
+.Decor{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.card_features{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    position: relative;
+}
+.card_indicator{
+    position: absolute;
+    margin-left: 479px;
+}
+
+/* _________________about-company */
+.about-company{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 150px;
+    background-color: #F4F0EC;
+    height: 457px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.about-company_years{
+    color: #CDA274;
+    font-family: DM Serif Display;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 106.25px */
+    letter-spacing: 1.7px;
+    text-align: center;
+    margin-top: 151px;
+    
+}
+.about-company_text{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+ /* .about-company_characteristics{
+    border-right: 1px solid #CDA274;
+    height: 100px;
+    padding-right: 50px;
+    
+} */
+.about-company_line{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -70px;
+    margin-top: 153px;
+}
+.block-news_title{
+    color: #292F36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    margin-top: 96px;
+    margin-bottom: 12px;
+}
+.block-news_subtitle{
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    margin-bottom: 52px;
+}
+
+ /* ____________________________block-news */
+
+ .block-news-both{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    /* margin-left: 10px; */
+    /* row-gap:0px; */
+ }
+ .block-news_title{
+    color: #292F36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+ }
+ .block-news_subtitle{
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    position: relative;
+ }
+ .card_title{
+    margin-top: 20px;
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    
+ }
+ .card_date{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+ }
+ .card_buttoms{
+    position: absolute;
+    margin-left: 287px;
+    margin-top: -42px;
+ }
+.block-news_Solution-border{
+    margin-bottom: 96px;
+    border: 1px solid #E7E7E7;
+    padding:20px 20px 40px 20px;
+    border-radius: 50px;
+}
+.fon-grey{
+    background-color: #E7E7E7;
+}
+.block-news_Solution{
+    position: relative;
+
+}
+.indicator-on-pictures{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 124px;
+    padding:10px;
+    background-color: rgb(252, 252, 248);
+    margin-top: -70px;
+    margin-left: 30px;
+    border-radius: 10px 10px 10px 0px;color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+.card_pictures{
+    border-radius: 50px 50px 0 0;
+}
+/* _____________footer */
+.footer_content{
+    margin-bottom: 134px;
+}
+
+.footer_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 101px;
+}
+.footer_text-logo{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 50px */
+}
+.footer-site_logo{
+    margin-right: 10px;
+}
+.footer_logo_slogan{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    width: 393px;
+    margin-bottom: 31px;
+}
+.logo-twiter{
+    margin-right: 54px;
+}
+.footer_pages_link{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%; /* 66px */
+    letter-spacing: 0.22px;
+}
+.footer_page_title{
+    margin-bottom: 15px;
+}
+.footer_contact_title{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    margin-bottom: 15px;
+}
+.footer_contact_adress{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    width: 258px;
+}
+.footer_contact_mail{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
+}
+.footer_contact_tel{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
+}
+.footer_pages{
+    display: grid;
+    grid-column: auto;
+}
+.footer_contact{
+    display: grid;
+    grid-column: auto;
+}

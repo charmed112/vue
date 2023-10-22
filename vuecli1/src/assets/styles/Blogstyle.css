@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  .center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+
+}.navigation-site_text-logo{
+color: #292F36;
+font-family: DM Serif Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 50px */
+}
+.navigation-site_logo{
+    margin-right: 10px;
+  
+}
+/* 1199width */
+.navigation-site{
+    margin-top: 65.5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+.navigation-site_link{
+   display: flex;
+   gap: 50px;
+   color: #292F36;
+   text-align: center;
+   font-family: Jost;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 125%; /* 25px */
+   padding-top: 20px;
+}
+
+.art-news{
+    background-image: url(../Imgarticle&news/img/Photo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:auto;
+    position: relative;
+    height: 351px;
+    margin-bottom: 200px;
+}
+/* _______________________________________article-block */
+.article-title{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    margin-bottom: 11px;
+    /* width: 70%; */
+}
+.content-block-img{
+    border-radius: 50px;
+    margin-bottom: 46px;
+}
+.inline-date{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 48px;
+}
+.date-article{
+    margin-right: 512px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+.navigation-home-interior{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+.article-text{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    /* width: 66%; */
+    text-align: justify;
+    margin-bottom: 35px;
+}
+.article-text1{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    /* width: 66%; */
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.quote{
+    margin-bottom: 27px;
+}
+.sprint-text{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    /* width: 60%; */
+   
+}
+.sprint-pict{
+    margin-right: 20px;
+}
+.content-block-img{
+    margin-top: 44px;
+}
+/* ____________footer */
+/* _____________footer */
+.footer_content{
+    margin-bottom: 134px;
+}
+
+.footer_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 101px;
+}
+.footer_text-logo{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 50px */
+}
+.footer-site_logo{
+    margin-right: 10px;
+}
+.footer_logo_slogan{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    width: 393px;
+    margin-bottom: 31px;
+}
+.logo-twiter{
+    margin-right: 54px;
+}
+.footer_pages_link{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%; /* 66px */
+    letter-spacing: 0.22px;
+}
+.footer_page_title{
+    margin-bottom: 15px;
+}
+.footer_contact_title{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    margin-bottom: 15px;
+}
+.footer_contact_adress{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    width: 258px;
+}
+.footer_contact_mail{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
+}
+.footer_contact_tel{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
+}
+.footer_pages{
+    display: grid;
+    grid-column: auto;
+}
+.footer_contact{
+    display: grid;
+    grid-column: auto;
+}
+
+.article-block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 52px;
+}
+.tag-text{
+    color: #292F36;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+.tag-buttmob{
+    border-radius: 10px;
+    background: #292F36;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    margin-right: 11px;
+    padding: 9px 30px 9px 30px;
+    margin-bottom: 10px;
+}
+.buttoms-gap{
+    display: flex;
+   margin-bottom: 11px;
+
+    
+}
