@@ -111,11 +111,11 @@ line-height: 125%; /* 50px */
     }
 /* <!-- ________________________project-cards --> */
 .project-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 101px;
-    /* margin:auto;
-    column-count:2; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr);
+    gap: 101px; */
+    margin:auto;
+    column-count:2;
     margin-bottom: 20px;
     
 }
@@ -126,6 +126,7 @@ line-height: 125%; /* 50px */
     position: absolute;
     left:565px;
     top:15px;
+    fill: red;
 }
 .card-buttom{
     position: absolute;

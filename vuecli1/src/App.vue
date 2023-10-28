@@ -1,11 +1,11 @@
 <template>
-  <ProductDetails :available="false" />
+  <!-- <ProductDetails :available="false" /> -->
   <navVue />
   <interno />
   <articleNews />
   <Blog />
-  <footerVue />
   <our-project />
+  <footerVue />
 </template>
 
 <script>
@@ -18,7 +18,7 @@ import footerVue from './components/footerVue.vue'
 import ourProject from './components/ourProject.vue'
 
 export default {
-  components: { ProductDetails, navVue, interno, articleNews, Blog, footerVue, ourProject }
+  components: { ProductDetails, navVue, interno, articleNews, Blog, ourProject, footerVue }
 }
 </script>
 
