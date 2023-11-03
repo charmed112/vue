@@ -4,5 +4,7 @@ import './assets/styles/styleInterno.css'
 import './assets/styles/articleNews.css'
 import './assets/styles/Blogstyle.css'
 import './assets/styles/ourProject.css'
+import './assets/styles/slider.css'
+import store from './store/index.js'
 // import './assets/js/sort.js'
-createApp(App).mount('#app')
+createApp(App).use(store).mount('#app')
