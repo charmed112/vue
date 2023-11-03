@@ -9,9 +9,9 @@ export default createStore({
             }
         ],
         sliderPictures: [
-            { src: require('../assets/slider/img/project_details_slider1.png'), alt: 'slider pic' },
-            { src: require('../assets/slider/img/project_details_slider2.png'), alt: 'slider pic' },
-            { src: require('../assets/slider/img/project_details_slider3.png'), alt: 'slider pic' },
+            { src: require('../assets/slider/img/project_details_slider1.png')},
+            { src: require('../assets/slider/img/project_details_slider2.png')},
+            { src: require('../assets/slider/img/project_details_slider3.png')},
         ]
     },
     getters: {

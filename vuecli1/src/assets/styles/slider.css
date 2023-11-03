@@ -92,3 +92,8 @@ line-height: 125%; /* 50px */
     margin-left: 300px;
     margin-bottom: 100px;
 }
+.slider-size{
+    width:1201px;
+    /* Height:1336px; */
+    margin-bottom:200px;
+}
