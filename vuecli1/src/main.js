@@ -5,7 +5,9 @@ import './assets/styles/articleNews.css'
 import './assets/styles/Blogstyle.css'
 import './assets/styles/ourProject.css'
 import './assets/styles/slider.css'
+import './assets/styles/bannerstyle.css'
 // import './assets/styles/styleslider.css'
 import store from './store/index.js'
+import router from './router'
 // import './assets/js/sort.js'
-createApp(App).use(store).mount('#app')
+createApp(App).use(router).use(store).mount('#app')

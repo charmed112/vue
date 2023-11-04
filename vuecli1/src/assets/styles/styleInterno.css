@@ -157,6 +157,7 @@ line-height: 125%; /* 50px */
 .card_indicator{
     position: absolute;
     margin-left: 479px;
+    top:-2px;
 }
 
 /* _________________about-company */

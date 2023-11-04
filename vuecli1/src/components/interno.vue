@@ -28,12 +28,14 @@
                         <div class="card_features">
                             <p class="Modern-Kitch">Modern Kitchan</p>
                             <p class="Decor">Decor / Artchitecture</p>
-                            <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Project">
+                                <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                                    <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                     <div class="project-home-cart">
@@ -41,12 +43,14 @@
                         <div class="card_features">
                             <p class="Modern-Kitch">Modern Kitchan</p>
                             <p class="Decor">Decor / Artchitecture</p>
-                            <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Project">
+                                <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                                    <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                     <div class="project-home-cart">
@@ -54,12 +58,14 @@
                         <div class="card_features">
                             <p class="Modern-Kitch">Modern Kitchan</p>
                             <p class="Decor">Decor / Artchitecture</p>
-                            <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Project">
+                                <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                                    <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                     <div class="project-home-cart">
@@ -67,12 +73,14 @@
                         <div class="card_features">
                             <p class="Modern-Kitch">Modern Kitchan</p>
                             <p class="Decor">Decor / Artchitecture</p>
-                            <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Project">
+                                <svg class="card_indicator" width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                                    <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -116,42 +124,48 @@
                             <p class="indicator-on-pictures">Kitchan Design</p>
                             <p class="card_title">Let’s Get Solution For <br>Building Construction <br> Work</p>
                             <p class="card_date">26 December,2022</p>
-                            <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
-                                <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Blog">
+                                <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
+                                    <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                     <div class="block-news_Solution-border fon-grey">
                         <div class="block-news_Solution">
                             <img class="card_pictures" src="../assets/imginterno/img/Image8.jpg" alt="">
                             <p class="indicator-on-pictures">Living Design</p>
-                            <p class="card_title">Low Cost Latest Invented <br>Interior Designing <br>
+                            <p class="card_title">Low Cost Latest Invented Interior Designing
                                 Ideas</p>
                             <p class="card_date">22 December,2022 </p>
-                            <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
-                                <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Blog">
+                                <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
+                                    <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                     <div class="block-news_Solution-border">
                         <div class="block-news_Solution">
                             <img class="card_pictures" src="../assets/imginterno/img/Image7.jpg" alt="">
                             <p class="indicator-on-pictures">Interior Design</p>
-                            <p class="card_title">Best For Any Office & <br> Business Interior <br>
+                            <p class="card_title">Best For Any Office & Business Interior
                                 Solution</p>
                             <p class="card_date">25 December,2022 </p>
-                            <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
-                                <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/Blog">
+                                <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
+                                    <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                 </section>

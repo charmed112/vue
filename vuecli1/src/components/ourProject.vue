@@ -1,11 +1,11 @@
 <template>
-    <section class="art-news center">
+    <section class="art-newss center">
         <div class="bakgraungPhoto">
         </div>
         <div class="nav-title ">
             <div class="nav-title1">
-                <p class="nav-text">Articles & News</p>
-                <p class="nav-text2">Home / Blog</p>
+                <p class="nav-text">Our Project</p>
+                <p class="nav-text2">Home / Project</p>
             </div>
         </div>
     </section>
@@ -23,12 +23,14 @@
             <div class="text-writing">
                 <p class="title-description">{{ item.title_description }}</p>
                 <p class="title-decor">{{ item.title_decor }}</p>
-                <svg class="card-buttom" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
-                    fill="none">
-                    <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                    <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
+                <router-link to="/ProductDetailse">
+                    <svg class="card-buttom" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
+                        fill="none">
+                        <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                        <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </router-link>
                 <div class="for-star">
                     <svg class="cards-star" @click="clickstarlike" xmlns="http://www.w3.org/2000/svg" width="36" height="35"
                         viewBox="0 0 36 35" fill="none">

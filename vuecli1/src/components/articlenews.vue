@@ -23,12 +23,14 @@
                     </p>
                     <p class="disighn_date">26 December,2022 </p>
                 </div>
-                <div class="buttom_disighn"><svg width="52" height="53" viewBox="0 0 52 53" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
-                        <path d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141" stroke="#292F36" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+                <div class="buttom_disighn">
+                    <router-link to="/BlogDetails">
+                        <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
+                            <path d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141" stroke="#292F36" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </router-link>
                 </div>
             </div>
         </section>
@@ -43,12 +45,14 @@
                             <p class="indicator-on-pictures">{{ item.indicator_on_pictures }}</p>
                             <p class="card_title">{{ item.card_title }}</p>
                             <p class="card_date">{{ item.card_date }}</p>
-                            <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
-                                <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                            <router-link to="/BlogDetails">
+                                <svg class="card_buttoms" width="52" height="53" viewBox="0 0 52 53" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
+                                    <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </router-link>
                         </div>
                     </div>
                 </section>

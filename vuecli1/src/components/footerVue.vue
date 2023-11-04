@@ -20,9 +20,9 @@
             </div>
             <div class="footer_pages">
                 <h2 class="footer_page_title">Pages</h2>
-                <a class="footer_pages_link" href="">Home</a>
-                <a class="footer_pages_link" href="">Project</a>
-                <a class="footer_pages_link" href="">Blog</a>
+                <router-link class="footer_pages_link" to="/">Home</router-link>
+                <router-link class="footer_pages_link" to="/Project">Project</router-link>
+                <router-link class="footer_pages_link" to="/Blog">Blog</router-link>
             </div>
             <div class="footer_clear">
 
